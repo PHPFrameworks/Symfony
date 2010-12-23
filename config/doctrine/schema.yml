@@ -1,0 +1,12 @@
+# config/doctrine/schema.yml
+BlogEntry:
+  columns:
+    title:     { type: string(255), notnull: true }
+    body:  { type: string(4000), notnull: true }
+ 
+BlogComment:
+  columns:
+    entry_id: { type: integer, notnull: true }
+    body:  { type: string(4000), notnull: true }
+  relations:
+    BlogEntry:  { onDelete: CASCADE, local: entry_id, foreign: id }
