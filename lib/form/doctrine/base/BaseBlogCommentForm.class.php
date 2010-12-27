@@ -16,14 +16,14 @@ abstract class BaseBlogCommentForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'       => new sfWidgetFormInputHidden(),
-      'entry_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('BlogEntry'), 'add_empty' => false)),
-      'body'     => new sfWidgetFormTextarea(),
+      'entry_id' => new sfWidgetFormInputText(),
+      'body'     => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
       'id'       => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'entry_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('BlogEntry'))),
-      'body'     => new sfValidatorString(array('max_length' => 4000)),
+      'entry_id' => new sfValidatorInteger(),
+      'body'     => new sfValidatorPass(),
     ));
 
     $this->widgetSchema->setNameFormat('blog_comment[%s]');

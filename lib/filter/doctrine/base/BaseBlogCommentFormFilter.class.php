@@ -13,12 +13,12 @@ abstract class BaseBlogCommentFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'entry_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('BlogEntry'), 'add_empty' => true)),
+      'entry_id' => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'body'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
-      'entry_id' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('BlogEntry'), 'column' => 'id')),
+      'entry_id' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'body'     => new sfValidatorPass(array('required' => false)),
     ));
 
@@ -40,7 +40,7 @@ abstract class BaseBlogCommentFormFilter extends BaseFormFilterDoctrine
   {
     return array(
       'id'       => 'Number',
-      'entry_id' => 'ForeignKey',
+      'entry_id' => 'Number',
       'body'     => 'Text',
     );
   }

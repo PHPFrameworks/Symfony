@@ -17,13 +17,13 @@ abstract class BaseBlogEntryForm extends BaseFormDoctrine
     $this->setWidgets(array(
       'id'    => new sfWidgetFormInputHidden(),
       'title' => new sfWidgetFormInputText(),
-      'body'  => new sfWidgetFormTextarea(),
+      'body'  => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
       'id'    => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'title' => new sfValidatorString(array('max_length' => 255)),
-      'body'  => new sfValidatorString(array('max_length' => 4000)),
+      'title' => new sfValidatorPass(),
+      'body'  => new sfValidatorPass(),
     ));
 
     $this->widgetSchema->setNameFormat('blog_entry[%s]');

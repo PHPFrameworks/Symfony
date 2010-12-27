@@ -1,12 +1,38 @@
-# config/doctrine/schema.yml
-BlogEntry:
-  columns:
-    title:     { type: string(255), notnull: true }
-    body:  { type: string(4000), notnull: true }
- 
 BlogComment:
+  connection: doctrine
+  tableName: blog_comment
   columns:
-    entry_id: { type: integer, notnull: true }
-    body:  { type: string(4000), notnull: true }
-  relations:
-    BlogEntry:  { onDelete: CASCADE, local: entry_id, foreign: id }
+    id:
+      type: integer(8)
+      notnull: false
+      primary: true
+      autoincrement: true
+    entry_id:
+      type: integer(8)
+      notnull: true
+      primary: false
+      autoincrement: false
+    body:
+      type: text()
+      notnull: true
+      primary: false
+      autoincrement: false
+BlogEntry:
+  connection: doctrine
+  tableName: blog_entry
+  columns:
+    id:
+      type: integer(8)
+      notnull: false
+      primary: true
+      autoincrement: true
+    title:
+      type: text()
+      notnull: true
+      primary: false
+      autoincrement: false
+    body:
+      type: text()
+      notnull: true
+      primary: false
+      autoincrement: false

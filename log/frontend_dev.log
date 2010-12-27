@@ -2006,3 +2006,608 @@ Dec 22 16:27:54 symfony [info] {sfWebDebugLogger} Action "blog/index" 29.50 ms (
 Dec 22 16:27:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (5)
 Dec 22 16:27:54 symfony [info] {sfWebDebugLogger} View "Success" for "blog/index" 28.51 ms (1)
 Dec 22 16:27:54 symfony [info] {sfWebResponse} Send content (35597 o)
+Dec 27 11:01:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:01:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:01:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:01:45 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:01:45 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sockkkk' (2)
+Dec 27 11:01:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:01:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:01:45 symfony [info] {sfWebDebugLogger} Configuration 121.31 ms (8)
+Dec 27 11:01:45 symfony [info] {sfWebDebugLogger} Factories 271.20 ms (1)
+Dec 27 11:01:45 symfony [info] {sfWebDebugLogger} Action "blog/index" 92.33 ms (1)
+Dec 27 11:02:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:02:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:02:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:02:07 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:02:07 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+Dec 27 11:02:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:02:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:02:07 symfony [info] {sfWebDebugLogger} Configuration 4.58 ms (9)
+Dec 27 11:02:07 symfony [info] {sfWebDebugLogger} Factories 12.16 ms (1)
+Dec 27 11:02:07 symfony [info] {sfWebDebugLogger} Action "blog/index" 48.50 ms (1)
+Dec 27 11:03:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:03:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:03:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:03:15 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:03:15 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:03:15 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:03:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:03:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:03:15 symfony [info] {sfWebDebugLogger} Configuration 5.70 ms (9)
+Dec 27 11:03:15 symfony [info] {sfWebDebugLogger} Factories 12.56 ms (1)
+Dec 27 11:03:15 symfony [info] {sfWebDebugLogger} Action "blog/index" 50.77 ms (1)
+Dec 27 11:03:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 44.71 ms (1)
+Dec 27 11:03:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:03:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:03:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:03:58 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:03:58 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:03:58 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:03:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:03:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:03:58 symfony [info] {sfWebDebugLogger} Configuration 1.19 ms (8)
+Dec 27 11:03:58 symfony [info] {sfWebDebugLogger} Factories 15.99 ms (1)
+Dec 27 11:03:58 symfony [info] {sfWebDebugLogger} Action "blog/index" 54.45 ms (1)
+Dec 27 11:03:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 48.71 ms (1)
+Dec 27 11:04:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:04:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:04:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:04:00 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:04:00 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:04:00 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:04:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:04:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Configuration 1.16 ms (8)
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Factories 9.94 ms (1)
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Action "blog/index" 49.98 ms (1)
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 44.21 ms (1)
+Dec 27 11:04:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:04:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:04:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:04:00 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:04:00 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:04:00 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:04:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:04:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Configuration 1.01 ms (8)
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Factories 12.75 ms (1)
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Action "blog/index" 51.96 ms (1)
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 47.09 ms (1)
+Dec 27 11:04:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:04:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:04:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:04:00 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:04:00 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:04:00 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:04:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:04:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Configuration 1.00 ms (8)
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Factories 19.22 ms (1)
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Action "blog/index" 63.79 ms (1)
+Dec 27 11:04:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 58.53 ms (1)
+Dec 27 11:05:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:05 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:05 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:05 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:05 symfony [info] {sfWebDebugLogger} Configuration 1.12 ms (8)
+Dec 27 11:05:05 symfony [info] {sfWebDebugLogger} Factories 10.19 ms (1)
+Dec 27 11:05:05 symfony [info] {sfWebDebugLogger} Action "blog/index" 76.78 ms (1)
+Dec 27 11:05:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 65.68 ms (1)
+Dec 27 11:05:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:06 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:06 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:06 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:06 symfony [info] {sfWebDebugLogger} Configuration 1.06 ms (8)
+Dec 27 11:05:06 symfony [info] {sfWebDebugLogger} Factories 7.99 ms (1)
+Dec 27 11:05:06 symfony [info] {sfWebDebugLogger} Action "blog/index" 46.11 ms (1)
+Dec 27 11:05:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 43.03 ms (1)
+Dec 27 11:05:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:06 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:06 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:06 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:07 symfony [info] {sfWebDebugLogger} Configuration 0.98 ms (8)
+Dec 27 11:05:07 symfony [info] {sfWebDebugLogger} Factories 12.22 ms (1)
+Dec 27 11:05:07 symfony [info] {sfWebDebugLogger} Action "blog/index" 57.26 ms (1)
+Dec 27 11:05:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 52.03 ms (1)
+Dec 27 11:05:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:07 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:07 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:07 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:07 symfony [info] {sfWebDebugLogger} Configuration 1.03 ms (8)
+Dec 27 11:05:07 symfony [info] {sfWebDebugLogger} Factories 7.98 ms (1)
+Dec 27 11:05:07 symfony [info] {sfWebDebugLogger} Action "blog/index" 45.31 ms (1)
+Dec 27 11:05:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 41.50 ms (1)
+Dec 27 11:05:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:08 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:08 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:08 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:08 symfony [info] {sfWebDebugLogger} Configuration 0.92 ms (8)
+Dec 27 11:05:08 symfony [info] {sfWebDebugLogger} Factories 7.67 ms (1)
+Dec 27 11:05:08 symfony [info] {sfWebDebugLogger} Action "blog/index" 47.73 ms (1)
+Dec 27 11:05:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 43.37 ms (1)
+Dec 27 11:05:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:09 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:09 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:09 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:09 symfony [info] {sfWebDebugLogger} Configuration 1.06 ms (8)
+Dec 27 11:05:09 symfony [info] {sfWebDebugLogger} Factories 10.36 ms (1)
+Dec 27 11:05:09 symfony [info] {sfWebDebugLogger} Action "blog/index" 61.83 ms (1)
+Dec 27 11:05:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 50.05 ms (1)
+Dec 27 11:05:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:09 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:09 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:09 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Configuration 1.44 ms (8)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Factories 6.65 ms (1)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Action "blog/index" 45.75 ms (1)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 41.66 ms (1)
+Dec 27 11:05:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:10 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:10 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:10 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Configuration 0.98 ms (8)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Factories 14.50 ms (1)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Action "blog/index" 62.39 ms (1)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 55.81 ms (1)
+Dec 27 11:05:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:10 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:10 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:10 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Configuration 0.93 ms (8)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Factories 6.83 ms (1)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Action "blog/index" 62.26 ms (1)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 58.72 ms (1)
+Dec 27 11:05:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:10 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:10 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:10 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Configuration 0.94 ms (8)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Factories 8.45 ms (1)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Action "blog/index" 63.21 ms (1)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 59.10 ms (1)
+Dec 27 11:05:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:05:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:05:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:05:10 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:05:10 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:05:10 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:05:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:05:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Configuration 1.00 ms (8)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Factories 7.45 ms (1)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Action "blog/index" 53.33 ms (1)
+Dec 27 11:05:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 49.55 ms (1)
+Dec 27 11:07:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:07:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:07:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:07:10 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:07:10 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:07:10 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:07:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:07:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:07:10 symfony [info] {sfWebDebugLogger} Configuration 55.27 ms (9)
+Dec 27 11:07:10 symfony [info] {sfWebDebugLogger} Factories 57.83 ms (1)
+Dec 27 11:07:10 symfony [info] {sfWebDebugLogger} Action "blog/index" 56.83 ms (1)
+Dec 27 11:07:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 52.57 ms (1)
+Dec 27 11:07:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:07:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:07:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:07:11 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:07:11 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:07:11 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:07:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:07:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:07:11 symfony [info] {sfWebDebugLogger} Configuration 0.84 ms (8)
+Dec 27 11:07:11 symfony [info] {sfWebDebugLogger} Factories 9.75 ms (1)
+Dec 27 11:07:11 symfony [info] {sfWebDebugLogger} Action "blog/index" 46.30 ms (1)
+Dec 27 11:07:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 42.11 ms (1)
+Dec 27 11:07:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:07:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:07:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:07:12 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:07:12 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:07:12 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:07:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:07:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Configuration 1.08 ms (8)
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Factories 8.65 ms (1)
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Action "blog/index" 56.82 ms (1)
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 49.19 ms (1)
+Dec 27 11:07:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:07:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:07:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:07:12 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:07:12 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:07:12 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:07:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:07:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Configuration 0.90 ms (8)
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Factories 8.73 ms (1)
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Action "blog/index" 58.89 ms (1)
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 55.40 ms (1)
+Dec 27 11:07:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:07:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:07:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:07:12 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:07:12 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:07:12 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:07:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:07:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Configuration 0.99 ms (8)
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Factories 14.79 ms (1)
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Action "blog/index" 57.62 ms (1)
+Dec 27 11:07:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 53.10 ms (1)
+Dec 27 11:07:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:07:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:07:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:07:13 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:07:13 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:07:13 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:07:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:07:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:07:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Configuration 1.21 ms (8)
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Factories 10.06 ms (1)
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Action "blog/index" 72.28 ms (1)
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 68.06 ms (1)
+Dec 27 11:07:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:07:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:07:13 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:07:13 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:07:13 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:07:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:07:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Configuration 1.01 ms (8)
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Factories 85.79 ms (1)
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Action "blog/index" 58.57 ms (1)
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 54.84 ms (1)
+Dec 27 11:07:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:07:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:07:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:07:13 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:07:13 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:07:13 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:07:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:07:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Configuration 1.00 ms (8)
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Factories 7.25 ms (1)
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Action "blog/index" 48.40 ms (1)
+Dec 27 11:07:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 45.07 ms (1)
+Dec 27 11:08:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:08:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:08:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:08:47 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:08:47 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:08:47 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:08:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:08:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:08:47 symfony [info] {sfWebDebugLogger} Configuration 1.80 ms (8)
+Dec 27 11:08:47 symfony [info] {sfWebDebugLogger} Factories 10.21 ms (1)
+Dec 27 11:08:47 symfony [info] {sfWebDebugLogger} Action "blog/index" 57.95 ms (1)
+Dec 27 11:08:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 53.06 ms (1)
+Dec 27 11:08:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:08:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:08:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:08:48 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:08:48 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:08:48 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:08:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:08:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:08:48 symfony [info] {sfWebDebugLogger} Configuration 1.38 ms (8)
+Dec 27 11:08:48 symfony [info] {sfWebDebugLogger} Factories 6.36 ms (1)
+Dec 27 11:08:48 symfony [info] {sfWebDebugLogger} Action "blog/index" 52.21 ms (1)
+Dec 27 11:08:48 symfony [info] {sfWebDebugLogger} Database (Doctrine) 46.40 ms (1)
+Dec 27 11:09:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:09:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:09:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:09:17 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:09:17 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:09:17 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:09:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:09:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:09:17 symfony [info] {sfWebDebugLogger} Configuration 1.13 ms (8)
+Dec 27 11:09:17 symfony [info] {sfWebDebugLogger} Factories 11.29 ms (1)
+Dec 27 11:09:17 symfony [info] {sfWebDebugLogger} Action "blog/index" 66.51 ms (1)
+Dec 27 11:09:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 59.61 ms (1)
+Dec 27 11:09:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:09:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:09:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:09:57 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:09:57 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:09:57 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:09:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:09:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:09:57 symfony [info] {sfWebDebugLogger} Configuration 1.18 ms (8)
+Dec 27 11:09:57 symfony [info] {sfWebDebugLogger} Factories 9.17 ms (1)
+Dec 27 11:09:57 symfony [info] {sfWebDebugLogger} Action "blog/index" 70.23 ms (1)
+Dec 27 11:09:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 63.72 ms (1)
+Dec 27 11:09:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:09:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:09:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:09:59 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:09:59 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:09:59 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 1 no such table: blog_entry. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b"
+Dec 27 11:09:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:09:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:09:59 symfony [info] {sfWebDebugLogger} Configuration 1.11 ms (8)
+Dec 27 11:09:59 symfony [info] {sfWebDebugLogger} Factories 9.19 ms (1)
+Dec 27 11:09:59 symfony [info] {sfWebDebugLogger} Action "blog/index" 55.08 ms (1)
+Dec 27 11:09:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 51.95 ms (1)
+Dec 27 11:12:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:12:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:12:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:12:37 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:12:37 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:12:37 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/indexSuccess.php"
+Dec 27 11:12:37 symfony [info] {sfPHPView} Decorate content with "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:12:37 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:12:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 27 11:12:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:12:37 symfony [info] {sfWebDebugLogger} Configuration 7.39 ms (10)
+Dec 27 11:12:37 symfony [info] {sfWebDebugLogger} Factories 9.19 ms (1)
+Dec 27 11:12:37 symfony [info] {sfWebDebugLogger} Action "blog/index" 13.46 ms (1)
+Dec 27 11:12:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Dec 27 11:12:37 symfony [info] {sfWebDebugLogger} View "Success" for "blog/index" 29.13 ms (1)
+Dec 27 11:12:37 symfony [info] {sfWebResponse} Send content (30684 o)
+Dec 27 11:12:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/new with parameters array (  'module' => 'blog',  'action' => 'new',)
+Dec 27 11:12:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:12:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:12:39 symfony [info] {blogActions} Call "blogActions->executeNew()"
+Dec 27 11:12:39 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/newSuccess.php"
+Dec 27 11:12:39 symfony [info] {sfPartialView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/_form.php"
+Dec 27 11:12:39 symfony [info] {sfPHPView} Decorate content with "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:12:39 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:12:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 27 11:12:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:12:39 symfony [info] {sfWebDebugLogger} Configuration 1.23 ms (9)
+Dec 27 11:12:39 symfony [info] {sfWebDebugLogger} Factories 11.60 ms (1)
+Dec 27 11:12:39 symfony [info] {sfWebDebugLogger} Action "blog/new" 29.61 ms (1)
+Dec 27 11:12:39 symfony [info] {sfWebDebugLogger} View "Success" for "blog/new" 12.58 ms (1)
+Dec 27 11:12:39 symfony [info] {sfWebDebugLogger} Partial "blog/_form" 5.10 ms (1)
+Dec 27 11:12:39 symfony [info] {sfWebResponse} Send content (32910 o)
+Dec 27 11:12:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/create with parameters array (  'module' => 'blog',  'action' => 'create',)
+Dec 27 11:12:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:12:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:12:45 symfony [info] {blogActions} Call "blogActions->executeCreate()"
+Dec 27 11:12:45 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO blog_entry (title, body) VALUES (?, ?) - (asdf, asdf)
+Dec 27 11:12:45 symfony [err] {Doctrine_Connection_Sqlite_Exception} SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+Dec 27 11:12:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 27 11:12:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:12:45 symfony [info] {sfWebDebugLogger} Configuration 0.92 ms (8)
+Dec 27 11:12:45 symfony [info] {sfWebDebugLogger} Factories 8.27 ms (1)
+Dec 27 11:12:45 symfony [info] {sfWebDebugLogger} Action "blog/create" 86.13 ms (1)
+Dec 27 11:12:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 67.23 ms (1)
+Dec 27 11:13:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/create with parameters array (  'module' => 'blog',  'action' => 'create',)
+Dec 27 11:13:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:10 symfony [info] {blogActions} Call "blogActions->executeCreate()"
+Dec 27 11:13:10 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO blog_entry (title, body) VALUES (?, ?) - (asdf, asdf)
+Dec 27 11:13:10 symfony [info] {sfFrontWebController} Redirect to "http://mmg_framework_symfony.local/frontend_dev.php/blog/edit/id/1"
+Dec 27 11:13:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 27 11:13:10 symfony [info] {sfWebResponse} Send header "Location: http://mmg_framework_symfony.local/frontend_dev.php/blog/edit/id/1"
+Dec 27 11:13:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:10 symfony [info] {sfWebDebugLogger} Configuration 1.06 ms (8)
+Dec 27 11:13:10 symfony [info] {sfWebDebugLogger} Factories 9.54 ms (1)
+Dec 27 11:13:10 symfony [info] {sfWebDebugLogger} Action "blog/create" 188.81 ms (1)
+Dec 27 11:13:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Dec 27 11:13:10 symfony [info] {sfWebResponse} Send content (137 o)
+Dec 27 11:13:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/edit/id/1 with parameters array (  'module' => 'blog',  'action' => 'edit',  'id' => '1',)
+Dec 27 11:13:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:10 symfony [info] {blogActions} Call "blogActions->executeEdit()"
+Dec 27 11:13:10 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b WHERE (b.id = ?) LIMIT 1 - (1)
+Dec 27 11:13:10 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/editSuccess.php"
+Dec 27 11:13:10 symfony [info] {sfPartialView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/_form.php"
+Dec 27 11:13:10 symfony [info] {sfPHPView} Decorate content with "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:10 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 27 11:13:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:10 symfony [info] {sfWebDebugLogger} Configuration 0.99 ms (9)
+Dec 27 11:13:10 symfony [info] {sfWebDebugLogger} Factories 6.14 ms (1)
+Dec 27 11:13:10 symfony [info] {sfWebDebugLogger} Action "blog/edit" 36.63 ms (1)
+Dec 27 11:13:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Dec 27 11:13:10 symfony [info] {sfWebDebugLogger} View "Success" for "blog/edit" 5.76 ms (1)
+Dec 27 11:13:10 symfony [info] {sfWebDebugLogger} Partial "blog/_form" 2.52 ms (1)
+Dec 27 11:13:10 symfony [info] {sfWebResponse} Send content (35843 o)
+Dec 27 11:13:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/update/id/1 with parameters array (  'module' => 'blog',  'action' => 'update',  'id' => '1',)
+Dec 27 11:13:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:13 symfony [info] {blogActions} Call "blogActions->executeUpdate()"
+Dec 27 11:13:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b WHERE (b.id = ?) LIMIT 1 - (1)
+Dec 27 11:13:13 symfony [info] {sfFrontWebController} Redirect to "http://mmg_framework_symfony.local/frontend_dev.php/blog/edit/id/1"
+Dec 27 11:13:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 27 11:13:13 symfony [info] {sfWebResponse} Send header "Location: http://mmg_framework_symfony.local/frontend_dev.php/blog/edit/id/1"
+Dec 27 11:13:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:13 symfony [info] {sfWebDebugLogger} Configuration 1.04 ms (8)
+Dec 27 11:13:13 symfony [info] {sfWebDebugLogger} Factories 12.13 ms (1)
+Dec 27 11:13:13 symfony [info] {sfWebDebugLogger} Action "blog/update" 17.52 ms (1)
+Dec 27 11:13:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (1)
+Dec 27 11:13:13 symfony [info] {sfWebResponse} Send content (137 o)
+Dec 27 11:13:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/edit/id/1 with parameters array (  'module' => 'blog',  'action' => 'edit',  'id' => '1',)
+Dec 27 11:13:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:13 symfony [info] {blogActions} Call "blogActions->executeEdit()"
+Dec 27 11:13:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b WHERE (b.id = ?) LIMIT 1 - (1)
+Dec 27 11:13:13 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/editSuccess.php"
+Dec 27 11:13:13 symfony [info] {sfPartialView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/_form.php"
+Dec 27 11:13:13 symfony [info] {sfPHPView} Decorate content with "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:13 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 27 11:13:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:13 symfony [info] {sfWebDebugLogger} Configuration 2.76 ms (9)
+Dec 27 11:13:13 symfony [info] {sfWebDebugLogger} Factories 12.33 ms (1)
+Dec 27 11:13:13 symfony [info] {sfWebDebugLogger} Action "blog/edit" 9.83 ms (1)
+Dec 27 11:13:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Dec 27 11:13:13 symfony [info] {sfWebDebugLogger} View "Success" for "blog/edit" 5.69 ms (1)
+Dec 27 11:13:13 symfony [info] {sfWebDebugLogger} Partial "blog/_form" 2.54 ms (1)
+Dec 27 11:13:13 symfony [info] {sfWebResponse} Send content (35850 o)
+Dec 27 11:13:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/update/id/1 with parameters array (  'module' => 'blog',  'action' => 'update',  'id' => '1',)
+Dec 27 11:13:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:15 symfony [info] {blogActions} Call "blogActions->executeUpdate()"
+Dec 27 11:13:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b WHERE (b.id = ?) LIMIT 1 - (1)
+Dec 27 11:13:15 symfony [info] {sfFrontWebController} Redirect to "http://mmg_framework_symfony.local/frontend_dev.php/blog/edit/id/1"
+Dec 27 11:13:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 27 11:13:15 symfony [info] {sfWebResponse} Send header "Location: http://mmg_framework_symfony.local/frontend_dev.php/blog/edit/id/1"
+Dec 27 11:13:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:15 symfony [info] {sfWebDebugLogger} Configuration 0.92 ms (8)
+Dec 27 11:13:15 symfony [info] {sfWebDebugLogger} Factories 7.34 ms (1)
+Dec 27 11:13:15 symfony [info] {sfWebDebugLogger} Action "blog/update" 17.13 ms (1)
+Dec 27 11:13:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (1)
+Dec 27 11:13:15 symfony [info] {sfWebResponse} Send content (137 o)
+Dec 27 11:13:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/edit/id/1 with parameters array (  'module' => 'blog',  'action' => 'edit',  'id' => '1',)
+Dec 27 11:13:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:15 symfony [info] {blogActions} Call "blogActions->executeEdit()"
+Dec 27 11:13:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b WHERE (b.id = ?) LIMIT 1 - (1)
+Dec 27 11:13:15 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/editSuccess.php"
+Dec 27 11:13:15 symfony [info] {sfPartialView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/_form.php"
+Dec 27 11:13:15 symfony [info] {sfPHPView} Decorate content with "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:15 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 27 11:13:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:15 symfony [info] {sfWebDebugLogger} Configuration 1.76 ms (9)
+Dec 27 11:13:15 symfony [info] {sfWebDebugLogger} Factories 11.62 ms (1)
+Dec 27 11:13:15 symfony [info] {sfWebDebugLogger} Action "blog/edit" 9.93 ms (1)
+Dec 27 11:13:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Dec 27 11:13:15 symfony [info] {sfWebDebugLogger} View "Success" for "blog/edit" 14.91 ms (1)
+Dec 27 11:13:15 symfony [info] {sfWebDebugLogger} Partial "blog/_form" 7.48 ms (1)
+Dec 27 11:13:15 symfony [info] {sfWebResponse} Send content (35853 o)
+Dec 27 11:13:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/update/id/1 with parameters array (  'module' => 'blog',  'action' => 'update',  'id' => '1',)
+Dec 27 11:13:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:16 symfony [info] {blogActions} Call "blogActions->executeUpdate()"
+Dec 27 11:13:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b WHERE (b.id = ?) LIMIT 1 - (1)
+Dec 27 11:13:16 symfony [info] {sfFrontWebController} Redirect to "http://mmg_framework_symfony.local/frontend_dev.php/blog/edit/id/1"
+Dec 27 11:13:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 27 11:13:16 symfony [info] {sfWebResponse} Send header "Location: http://mmg_framework_symfony.local/frontend_dev.php/blog/edit/id/1"
+Dec 27 11:13:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:16 symfony [info] {sfWebDebugLogger} Configuration 0.88 ms (8)
+Dec 27 11:13:16 symfony [info] {sfWebDebugLogger} Factories 7.04 ms (1)
+Dec 27 11:13:16 symfony [info] {sfWebDebugLogger} Action "blog/update" 13.16 ms (1)
+Dec 27 11:13:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Dec 27 11:13:16 symfony [info] {sfWebResponse} Send content (137 o)
+Dec 27 11:13:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/edit/id/1 with parameters array (  'module' => 'blog',  'action' => 'edit',  'id' => '1',)
+Dec 27 11:13:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:16 symfony [info] {blogActions} Call "blogActions->executeEdit()"
+Dec 27 11:13:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b WHERE (b.id = ?) LIMIT 1 - (1)
+Dec 27 11:13:16 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/editSuccess.php"
+Dec 27 11:13:16 symfony [info] {sfPartialView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/_form.php"
+Dec 27 11:13:16 symfony [info] {sfPHPView} Decorate content with "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:16 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 27 11:13:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:16 symfony [info] {sfWebDebugLogger} Configuration 1.82 ms (9)
+Dec 27 11:13:16 symfony [info] {sfWebDebugLogger} Factories 13.55 ms (1)
+Dec 27 11:13:16 symfony [info] {sfWebDebugLogger} Action "blog/edit" 8.81 ms (1)
+Dec 27 11:13:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Dec 27 11:13:16 symfony [info] {sfWebDebugLogger} View "Success" for "blog/edit" 6.17 ms (1)
+Dec 27 11:13:16 symfony [info] {sfWebDebugLogger} Partial "blog/_form" 2.73 ms (1)
+Dec 27 11:13:16 symfony [info] {sfWebResponse} Send content (35851 o)
+Dec 27 11:13:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'blog',  'action' => 'index',)
+Dec 27 11:13:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:17 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Dec 27 11:13:17 symfony [info] {Doctrine_Connection_Sqlite} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b - ()
+Dec 27 11:13:17 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/indexSuccess.php"
+Dec 27 11:13:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.entry_id AS b__entry_id, b.body AS b__body FROM blog_comment b WHERE (b.entry_id = ?) - (1)
+Dec 27 11:13:17 symfony [info] {sfPHPView} Decorate content with "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:17 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 27 11:13:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:17 symfony [info] {sfWebDebugLogger} Configuration 1.31 ms (9)
+Dec 27 11:13:17 symfony [info] {sfWebDebugLogger} Factories 7.79 ms (1)
+Dec 27 11:13:17 symfony [info] {sfWebDebugLogger} Action "blog/index" 5.10 ms (1)
+Dec 27 11:13:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Dec 27 11:13:17 symfony [info] {sfWebDebugLogger} View "Success" for "blog/index" 12.55 ms (1)
+Dec 27 11:13:17 symfony [info] {sfWebResponse} Send content (32384 o)
+Dec 27 11:13:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/new with parameters array (  'module' => 'blog',  'action' => 'new',)
+Dec 27 11:13:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:19 symfony [info] {blogActions} Call "blogActions->executeNew()"
+Dec 27 11:13:19 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/newSuccess.php"
+Dec 27 11:13:19 symfony [info] {sfPartialView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/_form.php"
+Dec 27 11:13:19 symfony [info] {sfPHPView} Decorate content with "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:19 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 27 11:13:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:19 symfony [info] {sfWebDebugLogger} Configuration 1.02 ms (9)
+Dec 27 11:13:19 symfony [info] {sfWebDebugLogger} Factories 9.93 ms (1)
+Dec 27 11:13:19 symfony [info] {sfWebDebugLogger} Action "blog/new" 3.74 ms (1)
+Dec 27 11:13:19 symfony [info] {sfWebDebugLogger} View "Success" for "blog/new" 16.29 ms (1)
+Dec 27 11:13:19 symfony [info] {sfWebDebugLogger} Partial "blog/_form" 2.86 ms (1)
+Dec 27 11:13:19 symfony [info] {sfWebResponse} Send content (32908 o)
+Dec 27 11:13:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/create with parameters array (  'module' => 'blog',  'action' => 'create',)
+Dec 27 11:13:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:24 symfony [info] {blogActions} Call "blogActions->executeCreate()"
+Dec 27 11:13:24 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO blog_entry (title, body) VALUES (?, ?) - (asdf, asdf)
+Dec 27 11:13:24 symfony [info] {sfFrontWebController} Redirect to "http://mmg_framework_symfony.local/frontend_dev.php/blog/edit/id/2"
+Dec 27 11:13:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 27 11:13:24 symfony [info] {sfWebResponse} Send header "Location: http://mmg_framework_symfony.local/frontend_dev.php/blog/edit/id/2"
+Dec 27 11:13:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:24 symfony [info] {sfWebDebugLogger} Configuration 0.81 ms (8)
+Dec 27 11:13:24 symfony [info] {sfWebDebugLogger} Factories 7.32 ms (1)
+Dec 27 11:13:24 symfony [info] {sfWebDebugLogger} Action "blog/create" 175.27 ms (1)
+Dec 27 11:13:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (1)
+Dec 27 11:13:24 symfony [info] {sfWebResponse} Send content (137 o)
+Dec 27 11:13:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/edit/id/2 with parameters array (  'module' => 'blog',  'action' => 'edit',  'id' => '2',)
+Dec 27 11:13:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 27 11:13:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 27 11:13:24 symfony [info] {blogActions} Call "blogActions->executeEdit()"
+Dec 27 11:13:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body FROM blog_entry b WHERE (b.id = ?) LIMIT 1 - (2)
+Dec 27 11:13:24 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/editSuccess.php"
+Dec 27 11:13:24 symfony [info] {sfPartialView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/modules/blog/templates/_form.php"
+Dec 27 11:13:24 symfony [info] {sfPHPView} Decorate content with "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:24 symfony [info] {sfPHPView} Render "/home/cw/workspace/mmg_framework_evaluation/Symfony/apps/frontend/templates/layout.php"
+Dec 27 11:13:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 27 11:13:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 27 11:13:24 symfony [info] {sfWebDebugLogger} Configuration 1.22 ms (9)
+Dec 27 11:13:24 symfony [info] {sfWebDebugLogger} Factories 16.52 ms (1)
+Dec 27 11:13:24 symfony [info] {sfWebDebugLogger} Action "blog/edit" 7.25 ms (1)
+Dec 27 11:13:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Dec 27 11:13:24 symfony [info] {sfWebDebugLogger} View "Success" for "blog/edit" 4.57 ms (1)
+Dec 27 11:13:24 symfony [info] {sfWebDebugLogger} Partial "blog/_form" 2.38 ms (1)
+Dec 27 11:13:24 symfony [info] {sfWebResponse} Send content (35844 o)
